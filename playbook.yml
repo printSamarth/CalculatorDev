@@ -2,8 +2,8 @@
 - name: Pull docker image
   hosts: all
   tasks:
-    - name: Pull printsamarth/cal_spe
+    - name: Pull printsamarth/calc-devops
       docker_image:
-        name: printsamarth/cal_spe
+        name: printsamarth/calc-devops
         source: pull
     
